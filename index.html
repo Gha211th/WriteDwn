@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main class="main-page">
+      <div class="content-title">
+        <h1>Todos</h1>
+        <p>simple CRUD system</p>
+      </div>
+      <div class="form-list">
+        <form class="form-content">
+          <label for="taskInput">Add Task</label>
+          <input
+            type="text"
+            id="taskInput"
+            class="task-input"
+            placeholder="please enter your task...."
+          />
+        </form>
+        <form class="form-content">
+          <label for="taskInput">Add Datetime</label>
+          <input
+            type="date"
+            id="dateInput"
+            class="date-input"
+            placeholder="please enter your task...."
+          />
+        </form>
+      </div>
+      <div class="button-list">
+        <button type="submit" id="btnSubmit" class="btn-submit">
+          Add To List
+        </button>
+        <button type="submit" id="btnClear" class="btn-clear">Clear All</button>
+      </div>
+      <div class="container-list" id="containerList">
+        <div class="container-content">
+          <h3>Unchecked List</h3>
+          <div
+            class="unchecked-container-list"
+            id="uncheckedContainerList"
+          ></div>
+        </div>
+        <div class="container-content">
+          <h3>Checked List</h3>
+          <div class="checked-container-list" id="checkedContainerList"></div>
+        </div>
+      </div>
+    </main>
+    <footer>Copyright@Gha211th Mini Project</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
