@@ -17,6 +17,12 @@ if (saved_Task) {
   renderTask();
 }
 
+if (typeof Storage === "undefined") {
+  alert(
+    "your browser is not support local storage, please try another browser",
+  );
+}
+
 btn_Submit.addEventListener("click", function (event) {
   event.preventDefault();
   addNewList();
