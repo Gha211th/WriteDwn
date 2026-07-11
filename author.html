@@ -5,6 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
     <link href="css/style.css" rel="stylesheet" />
+    <style>
+      .author-content {
+        width: 80%;
+        margin: 1rem 2rem;
+        padding: 5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 2px solid black;
+      }
+
+      .logo-and-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2rem;
+      }
+
+      .logo-and-text img {
+        width: 40%;
+        height: auto;
+        border-radius: 100%;
+      }
+
+      .logo-and-text button {
+        font-family: monospace;
+        font-weight: 500;
+        padding: 1rem 2rem;
+        background-color: black;
+        border-radius: 5px;
+      }
+
+      .logo-and-text button a {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        text-decoration: underline white;
+        color: white;
+      }
+
+      .author-text-content {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+      }
+
+      .author-content h2 {
+        font-size: 1.2rem;
+      }
+
+      .author-content p {
+        font-size: 0.8rem;
+      }
+
+      @media (min-width: 768px) {
+        .author-content {
+          width: 50%;
+          margin: 0rem;
+        }
+
+        .logo-and-text img {
+          width: 30%;
+        }
+
+        .logo-and-text button a {
+          font-size: 1rem;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        .author-content {
+          width: 40%;
+          margin-top: 4rem;
+        }
+
+        .author-text-content h2 {
+          font-size: 1.5rem;
+        }
+
+        .author-text-content p {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
