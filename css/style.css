@@ -16,6 +16,7 @@ body {
 
 /* NAVBAR / HEADER */
 header {
+  margin-top: 1.5rem;
   width: 90%;
   padding: 0.7rem 0rem;
   justify-content: center;
@@ -89,6 +90,7 @@ header div {
 
 /* MAIN PAGE */
 .main-page {
+  min-height: 100vh;
   width: 100%;
   display: flex;
   margin: 6.5rem 1rem;
@@ -359,9 +361,11 @@ footer {
   }
 }
 
-/* PAGE ABOUT */
-
-/* PAGE ABOUT END*/
+/* FOOTER */
+footer p {
+  font-size: 1rem;
+}
+/* FOOTER END */
 
 /* PAGE COMMIT */
 /* PAGE COMMIT END*/
