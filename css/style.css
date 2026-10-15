@@ -5,7 +5,8 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -16,9 +17,10 @@ body {
 
 /* NAVBAR / HEADER */
 header {
-  margin-top: 1.5rem;
+  margin-top: 0rem;
   width: 90%;
-  padding: 0.7rem 0rem;
+  background-color: white;
+  padding: 1rem 0rem;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -91,13 +93,14 @@ header div {
 /* MAIN PAGE */
 .main-page {
   min-height: 100vh;
+  height: auto;
   width: 100%;
   display: flex;
-  margin: 6.5rem 1rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
+  padding: 7rem 0rem;
 }
 
 /* HEADER TITLE */
@@ -174,6 +177,7 @@ header div {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-bottom: 10em;
 }
 
 .container-content {
