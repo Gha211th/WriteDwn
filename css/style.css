@@ -231,9 +231,9 @@ header div {
   cursor: pointer;
 }
 
-.btn-action:hover {
-  background: #d1d1d1;
-}
+/* .btn-action:hover { */
+/*   background: #d1d1d1; */
+/* } */
 
 footer {
   position: fixed;
